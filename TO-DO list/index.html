@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="heading">To-Do List</h1>
+    </header>
+    <main>
+        <form id="task-form">
+            <input type="text" placeholder="Task Name" id="task-name" required>
+            <select name="options" id="task-category">
+                <option value="work">Work</option >
+                <option value="Personal">Personal</option>
+                <option value="Shopping">Shopping</option>
+                <option value="College">College</option>
+                </select>
+                <input type="date" name="Date" id="task-date" required>
+                <button id="btn" type="submit" title="add-task">Add Task </button>
+        </form>
+        <section id="task-list"></section>
+        </main>
+        <footer id="footer">
+            <span>
+            <a href="https://github.com/vidhi16khurana/Javascript-Game.git" >GitHub</a>
+            <a href="http://linkedin.com/in/vidhi-khurana-71368a285" >LinkedIn</a>
+            <a href="http://vidhikhurana16@gmail.com" >Gmail</a>
+            </span>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
